@@ -1,5 +1,12 @@
 body {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
 }
 
 div {
@@ -30,6 +37,7 @@ div {
 .nav .nav-left a {
     display: inline-block;
     padding: 20px;
+    width: auto;
     text-decoration: none;
     background-color: white;
     color: black;
@@ -62,6 +70,7 @@ div {
     padding-top: 100px;
     padding-bottom: 100px;
     margin: auto;
+    width: 700px;
     max-width: 800px;
 }
 
@@ -70,25 +79,36 @@ div {
     margin: auto;
 }
 
+.nav .nav-left a:hover{
+    background-color: #FFD34E;
+    color: white;
+}
+
 .container {
     width: 80%;
     margin: auto;
 }
 
 * {
+    font-family: 'Lato', sans-serif;
     transition: all 0.3s ease
 }
 
-.red:hover {
+.red {
     color: #BD4932;
 }
 
-.blue:hover {
+.blue {
     color: #105B63;
 }
 
-.yellow:hover {
+.yellow {
     color: #FFD34E;
+}
+
+.yellow:hover {
+    color: #ffffff;
+    font-size: 1.05em;
 }
 
 .red-bg {
@@ -113,6 +133,14 @@ div {
 
 .yellow-bg:hover {
     background-color: white;
+}
+
+.green-bg {
+    background-color: #468966 !important;
+}
+
+.green-bg:hover {
+    color: white;
 }
 
 .projects-container {
@@ -166,8 +194,25 @@ div {
     display: inline-block;
 }
 
+.links-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links-container a{
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    vertical-align: top;
+    text-align: center;
+}
+
 header {
-    font-family: 'Lato', sans-serif;
     padding: 1em;
     background-image: url('background.jpg');
     background-size: cover;
