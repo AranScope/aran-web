@@ -26,6 +26,17 @@ div {
     margin-right: 40px;
 }
 
+
+.nav .nav-left a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
 .nav .nav-right a:hover {
     background-color: white;
     color: black;
@@ -85,7 +96,7 @@ div {
 }
 
 .red-bg:hover {
-	background-color: white;
+    background-color: white;
 }
 
 .blue-bg {
@@ -93,7 +104,7 @@ div {
 }
 
 .blue-bg:hover {
-	background-color: white;
+    background-color: white;
 }
 
 .yellow-bg {
@@ -101,16 +112,20 @@ div {
 }
 
 .yellow-bg:hover {
-	background-color: white;
+    background-color: white;
 }
 
 .projects-container {
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    background-image: url('pixel_weave.png');
 }
 
 .projects-container .projects {
     font-family: 'Lato', sans-serif;
+    width: 100%;
     font-weight: 300;
     display: flex;
     flex-wrap: wrap;
@@ -118,11 +133,11 @@ div {
 }
 
 .projects-container .projects .project {
-    width: 30%;
+    width: 25%;
     background-color: white;
-    max-height: 300px;
-    height: 300px;
+    
     padding: 20px;
+    margin: 40px 20px 0px 20px;
     text-align: center;
     color: white;
 }
