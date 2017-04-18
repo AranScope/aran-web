@@ -38,7 +38,7 @@ p{
 	text-transform: uppercase;
 	padding: 3vh;
 	width: calc(12vh + 6vw);
-	font-size: calc(1.1vh + 0.55vw);
+	font-size: 1em;
 	border-style: none;
 	text-align: center;
 	text-decoration: none;
@@ -59,7 +59,7 @@ p{
 }
 
 #about .text-block p{
-	padding-top: 10vh;
+	padding-top: 5vw;
 }
 
 #projects {
@@ -76,7 +76,7 @@ p{
 	width: 25vw;
 	border-style: none;
 	color: #fff;
-	font-size: calc(1.25vh + 0.675vw);
+	font-size: 1em;
 	text-align: center;
 	text-decoration: none;
 	line-height: 10vh;
@@ -97,7 +97,7 @@ p{
 }
 
 h3 {
-	font-size: calc(3vw + 6vh);
+	font-size: 2em;
 }
 
 .clickable {
@@ -109,8 +109,18 @@ h3 {
     z-index: 1;
 }
 
+@media (min-width: 750px) {
+	.post {
+		width: 55vw !important;
+	}
+	
+	.text-block {
+		font-size: 3.2em !important;
+	}
+}
+
 .post {
-	width: 55vw;
+	width: 90vw;
 	padding: 10vh 0 10vh 0;
 	color: #4A4A4A;
 	border-bottom: solid;
@@ -119,12 +129,12 @@ h3 {
 }
 
 .post h3 {
-	font-size: calc(1.5vw + 3vh);
+	font-size: 2em;
 }
 
 .post p {
 	padding: 5vh 0 5vh 0;
-	font-size: calc(0.65vw + 1.3vh);
+	font-size: 1.1em;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	letter-spacing: 0.1px;
@@ -132,12 +142,12 @@ h3 {
 }
 
 .post a {
-	font-size: calc(0.65vw + 1.3vh);
+	font-size: 1.1em;
 	font-weight: 300;
 }
 
 .post .button {
-	font-size: calc(0.65vw + 1.3vh);
+	font-size: 1em;
 	padding: 1.5vh 1.5vw 1.5vh 1.5vw;
 	margin: 0 0.3vw 0 0.3vw;
 }
@@ -149,7 +159,7 @@ h3 {
 	text-align: center;
 	color: white;
 	font-weight: 300;
-	font-size: calc(2vw + 4vh);
+	font-size: 2em;
 }
 
 .yellow {
